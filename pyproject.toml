@@ -1,0 +1,19 @@
+[project]
+name = "needle-skill"
+version = "0.1.0"
+requires-python = ">=3.11"
+description = "Function calling bridge powered by Needle, packaged as an opencode skill"
+dependencies = [
+    "pyyaml",
+    "huggingface_hub",
+]
+
+[project.scripts]
+needle-skill = "needle_skill.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["needle_skill*"]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"

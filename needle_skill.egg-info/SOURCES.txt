@@ -1,0 +1,13 @@
+pyproject.toml
+needle_skill/__init__.py
+needle_skill/__main__.py
+needle_skill/cli.py
+needle_skill/config.py
+needle_skill/engine.py
+needle_skill/server.py
+needle_skill.egg-info/PKG-INFO
+needle_skill.egg-info/SOURCES.txt
+needle_skill.egg-info/dependency_links.txt
+needle_skill.egg-info/entry_points.txt
+needle_skill.egg-info/requires.txt
+needle_skill.egg-info/top_level.txt

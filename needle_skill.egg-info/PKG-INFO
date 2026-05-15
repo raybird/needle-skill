@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: needle-skill
+Version: 0.1.0
+Summary: Function calling bridge powered by Needle, packaged as an opencode skill
+Requires-Python: >=3.11
+Requires-Dist: pyyaml
+Requires-Dist: huggingface_hub
