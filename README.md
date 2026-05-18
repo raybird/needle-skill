@@ -15,7 +15,7 @@ Needle-Skill wraps Needle into a clean HTTP server + CLI, exposing a single `/v1
 
 ```bash
 # 1. Install the package (from GitHub)
-pip install git+https://github.com/<your-org>/needle-skill.git
+pip install git+https://github.com/raybird/needle-skill.git
 
 # 2. One-time setup — installs Needle, downloads the 51MB checkpoint
 needle-skill setup
