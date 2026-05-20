@@ -164,6 +164,7 @@ Edit `~/.needle/config.yaml` to change default port or checkpoint path.
 - **CPU-only** — Each call takes 10-30 seconds depending on query and tools length.
 - **Stateless** — No conversation history. Each call is independent.
 - **May miss optional arguments** — The model may sometimes omit non-required parameters.
+- **Non-ASCII / Multilingual Issues** — Tiny model parameter size and English-dominated corpus training cause unicode escape sequence spelling hallucinations when given non-ASCII (e.g., Chinese) queries. See [RESEARCH.md](./RESEARCH.md) for details and pre-processing recommendations.
 
 ---
 
